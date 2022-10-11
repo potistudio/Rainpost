@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Zen Kaku Gothic New";
+}
+
+:root {
+	--white: #FCFCFC;
+}
+
+
+.Window-Content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	border: solid 1px #DADADA;
+	background-color: var(--white);
+}
+
+
+.Window-Close-Button {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	transition: all 0.4s 0s ease;
+}
+
+.Window-Close-Button:hover {
+	background-color: #EE8888;
+	box-shadow: 0 0 16px #EE8888;
+}
+
+.Window-Close-Button img {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	height: 60%;
+	filter: brightness(10%);
+}
