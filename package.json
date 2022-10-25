@@ -22,5 +22,8 @@
   "homepage": "https://github.com/potistudio/Rainpost#readme",
   "devDependencies": {
     "electron": "^21.1.0"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
   }
 }
