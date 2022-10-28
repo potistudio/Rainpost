@@ -11,6 +11,7 @@ let mainTray = null;
 // Initialize the Application
 function init() {
 	createTray();
+	app.setLoginItemSettings ({ openAtLogin: true });
 }
 
 
