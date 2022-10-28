@@ -12,7 +12,7 @@ window.onload = async () => {
 	let geo = await fetch ("http://api.openweathermap.org/geo/1.0/direct?q=Tokyo,Japan&appid=3c48f42513dfd9f90a79ea4d2129d335");
 	let geoJ = await geo.json();
 
-	let responce = await fetch ("https://api.openweathermap.org/data/3.0/onecall?lat=35.690&lon=139.692&appid=3c48f42513dfd9f90a79ea4d2129d335");
+	let responce = await fetch ("https://api.openweathermap.org/data/3.0/onecall?lat=35.690&lon=139.692&appid=MYAPPID");
 	let jsonData = await responce.json();
 
 
